@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Insert", "Dapper.Insert\Dapper.Insert.csproj", "{6D4CBF24-ED7C-4915-9455-D7B2EC5C6D2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.InsertReturnIdentity", "Dapper.InsertReturnIdentity\Dapper.InsertReturnIdentity.csproj", "{CCF0F15F-C447-408C-8748-02315AF3D395}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Update", "Dapper.Update\Dapper.Update.csproj", "{246D3B73-FD0D-4206-9DE6-2EAC40E1C9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Transaction", "Dapper.Transaction\Dapper.Transaction.csproj", "{25CB927F-A627-4D1C-8B00-F6F8BE60191E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.SelectAll", "Dapper.SelectAll\Dapper.SelectAll.csproj", "{7B336596-5CA4-461E-8FF2-BB3CD549B480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Delete", "Dapper.Delete\Dapper.Delete.csproj", "{50201AEA-CCD4-4F72-879A-AD1E15E604C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.MultipleQuery", "Dapper.MultipleQuery\Dapper.MultipleQuery.csproj", "{202D54FA-B87C-4E93-A989-2665C342FDFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D4CBF24-ED7C-4915-9455-D7B2EC5C6D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4CBF24-ED7C-4915-9455-D7B2EC5C6D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4CBF24-ED7C-4915-9455-D7B2EC5C6D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4CBF24-ED7C-4915-9455-D7B2EC5C6D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF0F15F-C447-408C-8748-02315AF3D395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF0F15F-C447-408C-8748-02315AF3D395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF0F15F-C447-408C-8748-02315AF3D395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF0F15F-C447-408C-8748-02315AF3D395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246D3B73-FD0D-4206-9DE6-2EAC40E1C9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246D3B73-FD0D-4206-9DE6-2EAC40E1C9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246D3B73-FD0D-4206-9DE6-2EAC40E1C9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246D3B73-FD0D-4206-9DE6-2EAC40E1C9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CB927F-A627-4D1C-8B00-F6F8BE60191E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CB927F-A627-4D1C-8B00-F6F8BE60191E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CB927F-A627-4D1C-8B00-F6F8BE60191E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CB927F-A627-4D1C-8B00-F6F8BE60191E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B336596-5CA4-461E-8FF2-BB3CD549B480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B336596-5CA4-461E-8FF2-BB3CD549B480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B336596-5CA4-461E-8FF2-BB3CD549B480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B336596-5CA4-461E-8FF2-BB3CD549B480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50201AEA-CCD4-4F72-879A-AD1E15E604C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50201AEA-CCD4-4F72-879A-AD1E15E604C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50201AEA-CCD4-4F72-879A-AD1E15E604C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50201AEA-CCD4-4F72-879A-AD1E15E604C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202D54FA-B87C-4E93-A989-2665C342FDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202D54FA-B87C-4E93-A989-2665C342FDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202D54FA-B87C-4E93-A989-2665C342FDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202D54FA-B87C-4E93-A989-2665C342FDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40E112D7-3A96-4768-9788-30C929CA4872}
+	EndGlobalSection
+EndGlobal
